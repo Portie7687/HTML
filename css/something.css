@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mitr", sans-serif;
+  background-color: #c8ffd4;
+}
+
+.main {
+  text-align: center;
+  color: rgb(100, 98, 98);
+}
+
+span {
+  color: blue;
+  justify-content: center;
+  display: flex;
+}
+
+.footer {
+  background-color: #d2daff;
+  text-align: center;
+}
+.navbar {
+  text-align: center;
+  color: #efefef;
+  background-image: url("../image/spmUM.gif");
+}
+
+/* footer */
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  /* สีพื้นหลังของ footer อันเเเรก */
+  background-color: #272727;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-top: auto;
+}
+
+footer li {
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.icons a {
+  /* สีพื้นหลังของ icon in footer  */
+  background: #52527a;
+  color: #272727;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 100%;
+  display: flex;
+}
+
+.icons a:hover {
+  /* สีพื้นหลังของ icon เมือเราเอาเม้าไปชี้ดูจากคำว่า "hover" */
+  color: #9e1919;
+  transition: 0.5s;
+}
+
+.menu a {
+  color: #f1f1f1;
+  text-transform: capitalize;
+}
+
+.menu a:hover {
+  color: #52527a;
+  transition: 0.5s;
+}
+
+.footer-copyright {
+  /* สีของ footer ที่อยู่ข้างล่างสุด */
+  background-color: #65647c;
+  /* สีของตัวหนังสือ */
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.footer-copyright p {
+  margin-bottom: 0px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px 0px 100px ;
+}
+
+.dream {
+  border: #9e1919 solid;
+  border-radius: 20px;
+  
+}
+
+.fav {
+  border: #9e1919 solid;
+  border-radius: 20px;
+  
+}

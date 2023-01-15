@@ -1,48 +1,95 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mitr&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./image/logo.png" type="image/icon type" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>แนะนำตัวเอง</title>
-    <style>
-        body{
-            background: #A5D6AF;
-        }
-        .main{
-            text-align: center;
-            color: crimson;
-        }
-        span{
-            color:blue;
-            justify-content: center;
-             display: flex;
-        }
-        hr.new1 {
-            border: 10px solid green;
-  border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <h1>
-        <span >โปรไฟล์</span>
-    </h1>
-    <p style="text-align: center;"><img src="./image/Myself.jpg" width="200" height="200">
-    <div class="main">
-    <p>
-        สวัสดีครับผมชื่อ ปาร์ตี้<br>ผมอายุ 17 ปี<br>เกิดวันที่ 27 พฤศจิกายน 2547 
-    </p>
-    <b><span>สิ่งที่ชอบ</span></b>
-    <p>เล่นเกมและดูหนัง</p>
-    <p>สัตว์ที่ชอบคือหมากับแมว</p>
-    <p>อาหารที่ชอบคือพิซซ่า</p>
+    <link rel="stylesheet" href="./css/something.css" />
+
+    <!--Ionicons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Welcome to My website</h1>
     </div>
-    <hr class="new1">
-    <form>
-        <label for="text">คำแนะนำเพิ่มเติม</label><br>
-        <textarea id="text" name="text" rows="4" cols="50"></textarea>
-        <br><input type="submit" value="Submit">
-    </form>
-</body>
+    <h1>
+      <span>โปรไฟล์</span>
+    </h1>
+    <p style="text-align: center">
+      <img src="./image/Myself.jpg" width="200" height="200" />
+    </p>
+    <div class="main">
+      <p>
+        สวัสดีครับผมชื่อ ปาร์ตี้<br />ผมอายุ 17 ปี<br />เกิดวันที่ 27 พฤศจิกายน
+        2547 <br />งานอดิเรก:เล่นบาสเกตบอล ดูหนัง
+      </p>
+
+      <div class="info">
+        <div class="fav">
+          <b><span>สิ่งที่ชอบ</span></b>
+          <p>เล่นเกมและดูหนัง</p>
+          <p>สัตว์ที่ชอบคือหมากับแมว</p>
+          <p>อาหารที่ชอบคือพิซซ่า</p>
+        </div>
+
+        <div class="dream">
+          <b><span>Dream & Goal</span></b>
+          <p>
+            โดยนิสัยส่วนตัวเป็นคนชอบลองอะไรหลายๆอย่าง ชอบสิ่งแปลกใหม่<br />
+            ในช่วงแรกเป็นคนที่คลำทางไม่ถูก หาความฝันไม่เจอ จนกระทั่งได้พบเจอ<br />
+            กับสิ่งที่เรียกว่า IT และการเขียนโค้ด<br />
+            ได้ลองทำและรู้สึกว่ามันน่าสนใจ เพราะ<br />
+            ITไม่ใช่การย่ำอยู่กับที่แต่ มันคือการเดินก้าวต่อไปเรื่อยๆ
+            พบเจอสิ่งใหม่ๆ<br />
+            และสร้างนวัตกรรมที่เปลี่ยนโลก
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <!-- เป็นไอคอนวงกลม ลองเลือกว่าจะเอาอันไหนเห็นไว้ -->
+      <ul class="icons">
+        <li>
+          <a href="https://github.com/Portie7687"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/patylivingroom/"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/pparty_sitthichai/"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <div class="footer-copyright">
+        <p>ⓝSitthichai Pairoj ⓜSitthichai.pairoj@gmail.com ⓟ093-326-5576</p>
+      </div>
+    </footer>
+  </body>
 </html>
