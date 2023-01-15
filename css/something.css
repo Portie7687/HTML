@@ -61,7 +61,7 @@ img {
 .profile h1 {
   font-size: 6rem;
   margin: 5px 0;
-  -webkit-text-stroke: 2px rgb(255, 255, 255); /* width and color */
+  -webkit-text-stroke: 0.1px rgb(255, 255, 255); /* width and color */
   background: linear-gradient(90deg, #00C9FF 0%, #48b853 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -105,15 +105,23 @@ img {
 
 .activity{
   font-size: 20px;
-  /* color: #ffffff; */
+  background-color: #31d0d0;
+  color: #ffffff;
 }
+/* .activity .fav{
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #20a3a3;
+  color: #ffffff;
+} */
 
 .activity .content .dream{
-  border: #68eaa9 solid;
+  /* border: #68eaa9 solid; */
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
-  background-color: #3fe4e4;
+  background-color: #20a3a3;
   color: #ffffff;
 }
 /* end activity */
